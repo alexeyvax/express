@@ -1,0 +1,11 @@
+div#container > div.comment > button.close,
+div#container > div.comment > button.save
+{
+	display: none;
+}
+
+div#container > div.comment.change > button.close,
+div#container > div.comment.change > button.save
+{
+	display: block;
+}
