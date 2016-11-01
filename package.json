@@ -1,18 +1,19 @@
 {
   "name": "express",
   "version": "1.0.0",
-  "description": "myExpress",
+  "description": "express",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "ejs": "^2.5.1",
-    "fs": "0.0.2"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "alexeyvax",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "fs": "0.0.2"
+  }
 }

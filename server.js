@@ -195,9 +195,4 @@ app.route( '/comments/:id' )
 		}
 	);
 
-app.listen( 3004, ()=> console.log( 'Started connect web server for REST API on http://localhost:3004' ) );
-
-// *********************************************************
-
-
-
+app.listen( 3004, () => console.log('Started connect web server for REST API on http://localhost:3004'));
